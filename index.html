@@ -23,6 +23,20 @@
   <div class="section"><div class="section-header"><div class="num">6</div><h2>Sensitivity analysis: when does the best decision change?</h2></div><div class="section-body"><p class="intro-text">This visualizes the data-table idea: change the probability of no competing bid and watch the EMV-maximizing bid shift.</p><div class="chart-wrap"><svg id="emvChart" viewBox="0 0 900 260" preserveAspectRatio="none"></svg></div><div class="challenge"><div class="label">Teaching prompt</div><h3>Ask students: why can the $125K bid become best when no competition is more likely?</h3><p>Because a higher bid gives more profit if SciTools wins, and a higher probability of no competitor makes winning less dependent on underbidding competitors.</p></div></div></div>
   <div class="section"><div class="section-header"><div class="num">7</div><h2>Quick check questions</h2></div><div class="section-body"><div class="grid-3"><div class="metric-card"><div class="metric-label">Concept check 1</div><p>If SciTools bids $120K and the competitor bids $118K, who wins?</p><p class="explain-box"><strong>Answer:</strong> Competitor wins, because $118K is lower.</p></div><div class="metric-card"><div class="metric-label">Concept check 2</div><p>If SciTools bids $115K, can it still lose money?</p><p class="explain-box"><strong>Answer:</strong> Yes. It loses $5K whenever a competitor submits a lower bid.</p></div><div class="metric-card"><div class="metric-label">Concept check 3</div><p>Does EMV mean SciTools will earn exactly that amount?</p><p class="explain-box"><strong>Answer:</strong> No. EMV is a weighted average over possible outcomes.</p></div></div></div></div>
   <p class="footer-note">A companion simulation for MGSC-3010 / INFO 301 · Decision Making Under Uncertainty</p>
+
+  <div style="background:#E5EDFC;border-left:4px solid #1E2761;padding:16px 20px;margin-bottom:24px;border-radius:0 4px 4px 0;">
+  <h2 style="font-family:Cambria,Georgia,serif;color:#1E2761;font-size:20px;margin-bottom:8px;">
+    Need help thinking through the case?
+  </h2>
+  <p style="margin-bottom:12px;">
+    Use the MGSC3010 AI Tutor to practice identifying decisions, outcomes, probabilities, payoffs, and EMV.
+  </p>
+  <a href="PASTE-YOUR-CUSTOM-GPT-LINK-HERE"
+     target="_blank"
+     style="display:inline-block;background:#1E2761;color:white;padding:10px 16px;border-radius:4px;text-decoration:none;font-weight:bold;">
+    🎓 Ask MGSC3010 Tutor
+  </a>
+</div>
 </main>
 <script>
 const state={bid:115000,pNoComp:0.30,compBid:120000,sim:[]};
